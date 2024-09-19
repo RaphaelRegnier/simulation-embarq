@@ -27,8 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   }
 });
-</script>
-<script>
+
   document.addEventListener('DOMContentLoaded', function () {
     const form = document.getElementById('simulation-form');
     const leadForm = document.getElementById('simulation-lead-form');
@@ -118,8 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
       return null;
     }
   });
-</script>
-<script>
+
 	$( "#redo-button" ).click(function() {
   		location.reload();
 	});
